@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=65.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "notifier"
+version = "0.1.0"
+description = "A simple library to send push notifications using multiple platforms"
+authors = [
+    {name = "Alessandro Magnosi", email = "klez.virus@gmail.com"}
+]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.6"
+keywords = ["configuration", "automation", "notifications", "push"]
+
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+dependencies = [
+    "setuptools; python_version<'3.12'",  # Compatibility with setuptools
+    "importlib_resources; python_version<'3.9'",  # Compatibility for accessing data files
+    "requests",
+    "discordwebhook"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/klezvirus/notifier"
+"Documentation" = "https://github.com/klezvirus/nessuslib/wiki"
+"Issue Tracker" = "https://github.com/klezvirus/nessuslib/issues"
+"Source Code" = "https://github.com/klezvirus/nessuslib"
