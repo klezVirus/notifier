@@ -1,5 +1,5 @@
 import argparse
-from notifier.notifier import Notifier
+from notifier import Notifier
 
 
 def parse_args():
