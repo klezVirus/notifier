@@ -34,6 +34,6 @@ dependencies = [
 
 [project.urls]
 "Homepage" = "https://github.com/klezvirus/notifier"
-"Documentation" = "https://github.com/klezvirus/nessuslib/wiki"
-"Issue Tracker" = "https://github.com/klezvirus/nessuslib/issues"
-"Source Code" = "https://github.com/klezvirus/nessuslib"
+"Documentation" = "https://github.com/klezvirus/notifier/wiki"
+"Issue Tracker" = "https://github.com/klezvirus/notifier/issues"
+"Source Code" = "https://github.com/klezvirus/notifier"
